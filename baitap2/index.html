@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Đăng ký</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img width="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTttQ8M3f7wI-PxfNhi2Ln0RmsQgPRK441iqQ&s" alt="">
+        </div>
+        <ul class="header-menu">
+            <li>Trang chủ</li>
+            <li>Giới thiệu</li>
+            <li>Sản phẩm</li>
+            <li>Liên hệ</li>
+            <li>Đăng ký</li>
+        </ul>
+        <hr>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <img src="https://www.easygifanimator.net/images/samples/video-to-gif-sample.gif" alt="">
+        <!-- Biểu mẫu đăng ký thành viên -->
+        <section>
+            <h2>Đăng ký thành viên</h2>
+            <form action="#" method="POST">
+                <!-- Họ và Tên -->
+                <label for="name">Họ và Tên:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <!-- Số điện thoại -->
+                <label for="phone">Số điện thoại:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <!-- Mật khẩu -->
+                <label for="password">Mật khẩu:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <!-- Xác nhận mật khẩu -->
+                <label for="confirm_password">Xác nhận mật khẩu:</label><br>
+                <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+                <!-- Giới tính -->
+                <label>Giới tính:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Nam</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Nữ</label><br><br>
+
+                <!-- Ngày sinh -->
+                <label for="dob">Ngày sinh:</label><br>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <!-- Quốc gia -->
+                <label for="country">Quốc gia:</label><br>
+                <select id="country" name="country">
+                    <option value="vn">Việt Nam</option>
+                    <option value="us">Hoa Kỳ</option>
+                    <option value="uk">Anh</option>
+                    <option value="jp">Nhật Bản</option>
+                </select><br><br>
+
+                <!-- Ảnh đại diện -->
+                <label for="avatar">Ảnh đại diện:</label><br>
+                <input type="file" id="avatar" name="avatar"><br><br>
+
+                <!-- Sở thích -->
+                <label>Sở thích:</label><br>
+                <input type="checkbox" id="sports" name="hobby" value="sports">
+                <label for="sports">Thể thao</label>
+                <input type="checkbox" id="music" name="hobby" value="music">
+                <label for="music">Âm nhạc</label>
+                <input type="checkbox" id="reading" name="hobby" value="reading">
+                <label for="reading">Đọc sách</label>
+                <input type="checkbox" id="travel" name="hobby" value="travel">
+                <label for="travel">Du lịch</label><br><br>
+
+                <!-- Giới thiệu -->
+                <label>Giới thiệu bản thân:</label><br>
+                <textarea name="introduce" id="introduce"></textarea><br><br>
+
+                <!-- Nhận thông báo -->
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Nhận thông báo qua email</label><br><br>
+
+                <!-- Đồng ý điều khoản -->
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">Tôi đồng ý với điều khoản sử dụng</label><br><br>
+
+                <!-- Nút đăng ký -->
+                <button type="submit">Đăng ký</button>
+            </form>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+         <!-- Thông tin liên hệ -->
+         <section>
+            <h2>Thông tin liên hệ</h2>
+            <p><strong>Địa chỉ:</strong> 123 Đường ABC, Quận 1, TP. Hồ Chí Minh</p>
+            <p><strong>Số điện thoại:</strong> <a href="tel:0123456789">0123 456 789</a></p>
+            <p><strong>Email:</strong> <a href="mailto:contact@example.com">contact@example.com</a></p>
+        </section>
+
+        <!-- Bản đồ -->
+        <section>
+            <h2>Vị trí của chúng tôi</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.2376317999006!2d106.70842230501181!3d10.813076268766109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752897a02ccc3d%3A0x353856bbfc9f5320!2zMTAyIE5ndXnhu4VuIFjDrSwgUGjGsOG7nW5nIDI2LCBCw6xuaCBUaOG6oW5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1739408932789!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <p>&copy; 2025 Công ty ABC. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
+
+<script>
+    
+    document.addEventListener("keydown", function (event) {
+        // Chặn F12
+        if (event.key === "F12") {
+            event.preventDefault();
+        }
+
+        // Chặn Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+        if ((event.ctrlKey && event.shiftKey && (event.key === "I" || event.key === "J")) || 
+            (event.ctrlKey && event.key === "U")) {
+            event.preventDefault();
+        }
+    });
+
+    // Chặn chuột phải
+    document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+    });
+
+    // Phát hiện DevTools đang mở
+    let devtoolsOpen = false;
+    const threshold = 160;
+    setInterval(() => {
+        const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+        const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+
+        if (widthThreshold || heightThreshold) {
+            devtoolsOpen = true;
+            alert("Bạn không được phép xem mã nguồn trang!");
+            window.location.href = "about:blank"; // Hoặc điều hướng đến trang khác
+        }
+    }, 500);
+
+</script>
