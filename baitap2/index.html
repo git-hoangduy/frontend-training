@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang Đăng ký</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -24,7 +25,9 @@
 
     <!-- Main Content -->
     <main>
-        <img src="https://www.easygifanimator.net/images/samples/video-to-gif-sample.gif" alt="">
+        <div class="form-image">
+            <img src="https://www.easygifanimator.net/images/samples/video-to-gif-sample.gif" alt="">
+        </div>
         <!-- Biểu mẫu đăng ký thành viên -->
         <section>
             <h2>Đăng ký thành viên</h2>
@@ -105,27 +108,29 @@
 
     <!-- Footer -->
     <footer>
-        <hr>
-         <!-- Thông tin liên hệ -->
-         <section>
-            <h2>Thông tin liên hệ</h2>
-            <p><strong>Địa chỉ:</strong> 123 Đường ABC, Quận 1, TP. Hồ Chí Minh</p>
-            <p><strong>Số điện thoại:</strong> <a href="tel:0123456789">0123 456 789</a></p>
-            <p><strong>Email:</strong> <a href="mailto:contact@example.com">contact@example.com</a></p>
-        </section>
-
-        <!-- Bản đồ -->
-        <section>
-            <h2>Vị trí của chúng tôi</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.2376317999006!2d106.70842230501181!3d10.813076268766109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752897a02ccc3d%3A0x353856bbfc9f5320!2zMTAyIE5ndXnhu4VuIFjDrSwgUGjGsOG7nW5nIDI2LCBCw6xuaCBUaOG6oW5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1739408932789!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <p>&copy; 2025 Công ty ABC. Mọi quyền được bảo lưu.</p>
+        <div class="footer-container">
+            <!-- Thông tin liên hệ -->
+            <section>
+                <h2>Thông tin liên hệ</h2>
+                <p><strong>Địa chỉ:</strong> 123 Đường ABC, Quận 1, TP. Hồ Chí Minh</p>
+                <p><strong>Số điện thoại:</strong> <a href="tel:0123456789">0123 456 789</a></p>
+                <p><strong>Email:</strong> <a href="mailto:contact@example.com">contact@example.com</a></p>
+            </section>
+    
+            <!-- Bản đồ -->
+            <section>
+                <h2>Vị trí của chúng tôi</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.2376317999006!2d106.70842230501181!3d10.813076268766109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752897a02ccc3d%3A0x353856bbfc9f5320!2zMTAyIE5ndXnhu4VuIFjDrSwgUGjGsOG7nW5nIDI2LCBCw6xuaCBUaOG6oW5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1739408932789!5m2!1svi!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </div>
+    
+        <p class="copyright">&copy; 2025 Công ty ABC. Mọi quyền được bảo lưu.</p>
     </footer>
 
 </body>
 </html>
 
-<script>
+<!-- <script>
     
     document.addEventListener("keydown", function (event) {
         // Chặn F12
@@ -159,4 +164,4 @@
         }
     }, 500);
 
-</script>
+</script> -->
